@@ -3,7 +3,7 @@ import * as genresAPI from "./fakeGenreService";
 const movies = [
   {
     _id: "637dd33b5057d14f000b73ec",
-    title: "Totam delectus",
+    title: "Die Hard",
     genre: { _id: "637dd33b5057d14f000b73ec", name: "Action" },
     numberInStock: 30,
     dailyRentalRate: 12.468004319816828,
@@ -12,7 +12,7 @@ const movies = [
   },
   {
     _id: "637dd33b5057d14f000b73ed",
-    title: "Non beatae",
+    title: "Click",
     genre: { _id: "637dd33b5057d14f000b73ed", name: "Comedy" },
     numberInStock: 28,
     dailyRentalRate: 82.21571566537023,
@@ -20,7 +20,7 @@ const movies = [
   },
   {
     _id: "637dd33b5057d14f000b73f1",
-    title: "Dolore fuga fugiat",
+    title: "Terminator",
     genre: { _id: "637dd33b5057d14f000b73f1", name: "Action" },
     numberInStock: 23,
     dailyRentalRate: 83.13037627376616,
@@ -28,7 +28,7 @@ const movies = [
   },
   {
     _id: "637dd33b5057d14f000b73f0",
-    title: "Architecto quia",
+    title: "Fast & Furious",
     genre: { _id: "637dd33b5057d14f000b73f0", name: "Action" },
     numberInStock: 22,
     dailyRentalRate: 36.45676705054939,
@@ -36,7 +36,7 @@ const movies = [
   },
   {
     _id: "637dd33b5057d14f000b73ee",
-    title: "Distinctio in",
+    title: "Prestige",
     genre: { _id: "637dd33b5057d14f000b73ee", name: "Thriller" },
     numberInStock: 20,
     dailyRentalRate: 69.21727266162634,
@@ -44,7 +44,7 @@ const movies = [
   },
   {
     _id: "637dd33b5057d14f000b73ef",
-    title: "Nam ea",
+    title: "Se7en",
     genre: { _id: "637dd33b5057d14f000b73ef", name: "Thriller" },
     numberInStock: 14,
     dailyRentalRate: 74.46123033296317,
@@ -52,7 +52,7 @@ const movies = [
   },
   {
     _id: "637dd33b5057d14f000b73eb",
-    title: "Natus perferendis possimus",
+    title: "Avatar",
     genre: { _id: "637dd33b5057d14f000b73eb", name: "Action" },
     numberInStock: 3,
     dailyRentalRate: 3.482537157833576,
@@ -60,7 +60,7 @@ const movies = [
   },
   {
     _id: "637dd33b5057d14f000b73f3",
-    title: "Illo aut",
+    title: "Bruce Almighty",
     genre: { _id: "637dd33b5057d14f000b73f3", name: "Comedy" },
     numberInStock: 2,
     dailyRentalRate: 70.02329474780709,
@@ -68,7 +68,7 @@ const movies = [
   },
   {
     _id: "637dd33b5057d14f000b73f2",
-    title: "Et fugit veniam",
+    title: "The Dark Knight",
     genre: { _id: "637dd33b5057d14f000b73f2", name: "Action" },
     numberInStock: 1,
     dailyRentalRate: 53.065143804997206,
