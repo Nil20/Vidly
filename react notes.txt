@@ -1,0 +1,25 @@
+1. props is read only, cannot change input of this component inside of this component
+2. The component that owns a piece of the state should be the one modifying it
+3. Cannot update the state directly, need to return a new state
+4. Controlled component
+5. When, have to pass data between things that have no parent-child relationship, one has to lift the state up
+6. Stateless functional component
+7. sfc - pass props as an argument, cc - no need to pass props as an argument
+8. components go through different life cycles
+   a. mount: instances of a component is created & inserted into a dom
+	i. constructor
+	ii. render
+	iii. componentDidMount (perfect place to make ajax calls to gain data from the server)
+   b. update: state/props of a component get changed
+	i. render
+	ii. componentDidUpdate
+   c. unmount: component removed from a dom
+	i. componentWillUnmount (does cleaning up, otherwise memory leaks)
+9. cannot use life cycle hooks in stateless functional components. thus, a sfc cannot have a constructor
+10. component tree gets updated without the dom being update. virtual dom actually gets updated
+11. when a state of a component is changes, all its members are re-rendered
+12. Proptypes with type checking
+13. Initialize props in state before modifying in componentDidMount
+14. default props are used to simplify the list groups
+15. <a> - static. <Link> - dynamic
+16. Call redirect to not-found by default 
