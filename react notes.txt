@@ -23,3 +23,4 @@
 14. default props are used to simplify the list groups
 15. <a> - static. <Link> - dynamic
 16. Call redirect to not-found by default 
+17. Null & undefined cannot be used as a value of a controlled element. That's why one should initialize properties of a state object with an empty string or some value one gets from a server
